@@ -1,0 +1,25 @@
+{
+    "name": "esp32-wifi",
+    "version": "0.1.0",
+    "description": "Extensión WiFi y Servidor Web para micro:bit usando ESP32-C3",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "7.0.51",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
